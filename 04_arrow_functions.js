@@ -24,6 +24,13 @@ var squareNumbers = numbers.map(function (n) {
 // ES6
 // -----------------------------------
 
+// Arrow function syntax
+/*
+     () => { ... } // no parameter
+      x => { ... } // one parameter, an identifier
+ (x, y) => { ... } // several parameters
+*/
+
 // Example 1
 var application = {
   debug: true,
