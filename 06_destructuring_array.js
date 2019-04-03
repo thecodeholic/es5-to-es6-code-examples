@@ -1,20 +1,22 @@
+function getNumbers(){
+  return [10, 20];
+}
+
 // ES5
 // ================================================================
-function multiply(a, b){
-  b = b === undefined ? 1 : b;
+var numbers = getNumbers();
+var number1 = numbers[0];
+var number2 = numbers[1];
 
-  return a * b;
-}
+// OR
+var number1 = numbers[0], 
+    number2 = numbers[1];
 // ================================================================
 
 
 // ES6
 // ================================================================
-function multiply(a, b = 1){
-  return a * b;
-}
+const [number1, number2] = getNumbers();
 // ================================================================
 
-console.log(multiply(5, 6)); // 30
-console.log(multiply(5, 0)); // 0
-console.log(multiply(5)); // 25
+console.log(number1, number2);

@@ -1,5 +1,5 @@
 // ES5
-
+// ================================================================
 var domain = "localhost";
 var port = 3000;
 var id = 5;
@@ -37,6 +37,7 @@ var paragraph = 'First paragraph\n\
 //     </html>';
 
 // ES6
+// ================================================================
 
 // Template literals
 var domain = "localhost";

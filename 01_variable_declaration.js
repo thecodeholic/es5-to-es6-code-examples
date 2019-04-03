@@ -1,5 +1,5 @@
 // ES5
-
+// ================================================================
 var myLocation = 'Default';
 function getLocation(ip) {
     if (ip) {
@@ -8,11 +8,11 @@ function getLocation(ip) {
     }
     return myLocation;
 }
-console.log(getLocation());
+// ================================================================
 
 
 // ES6
-
+// ================================================================
 let myLocation = 'Default';
 function getLocation(ip) {
     if (ip) {
@@ -21,5 +21,6 @@ function getLocation(ip) {
     }
     return myLocation;
 }
-console.log(getLocation());
+// ================================================================
 
+console.log(getLocation());
