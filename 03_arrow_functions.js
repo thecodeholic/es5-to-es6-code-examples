@@ -18,7 +18,16 @@ var application = {
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 var squareNumbers = numbers.map(function (n) {
   return n * n;
-})
+});
+
+// Example 3
+var multiply = function (a) {
+  return function (b) {
+    return function (c) {
+      return a * b * c;
+    }
+  }
+}
 
 
 // ES6
@@ -49,3 +58,6 @@ var application = {
 // Example 2
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 var squareNumbers = numbers.map(n => n * n);
+
+// Example 3
+const multiply = a => b => c => a * b * c;
